@@ -41,11 +41,14 @@ class MyCustomFormState extends State<MyCustomForm> {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        TextField(
-          decoration: InputDecoration(
-            labelText: 'Enter Text',
+        Container(
+          padding: EdgeInsets.all(20),
+          child: TextField(
+            decoration: InputDecoration(
+              labelText: 'Enter text here..',
+            ),
+            controller: text,
           ),
-          controller: text,
         ),
         RaisedButton(
           child: Text('Submit'),
