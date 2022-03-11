@@ -1,16 +1,25 @@
-# text2morecode
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Text2MoreCode
+An android application in flutter. When we write a text then the flashlight should be seen according to the mores code of the text we have written.
+## Team members
+1. [Mahshooq Zubair](https://github.com/MQ-xz/)
+2. [Joel Benny](https://github.com/joel-developer)
+## Team Id
+Flutter / 165
+## Link to product walkthrough
+[link to video]
+## How it Works ?
+1. Read Text from user
+2. Convert text to morse code
+3. flash light according to the morse code
+## Libraries used
+- morse - 0.1.4+1
+- torch_light - 0.4.0
+## How to configure
+1. Install flutter in PC
+2. clone the repo
+3. open in android studio or vscode
+4. run the app from IDE or in terminal use ```flutter run``` command 
+## How to Run
+1. [Download](https://drive.google.com/file/d/1ee9KlKmg_pOpiEtu6SnWLgVVgqN5pJTG/view) and Install apk
+2. Open app and type Text in input Field and submit
+3. Then the flash will blink according to the morse code of text 
